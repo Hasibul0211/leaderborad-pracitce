@@ -17,7 +17,7 @@ header{
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    border-radius: 5px;
+    
 }
 /* player-section */
 .player-blog-section{
@@ -25,6 +25,7 @@ header{
     height: 679px;
     background-color: #ffffff;
     padding: 30px;
+    border-radius: 5px;
 }
 .player-section h1{
     padding: 3px 0 40px 0;
@@ -65,7 +66,55 @@ hr:hover{
 .blog-section h1{
     color: blue;
     margin:30px 0 40px 0;
+    font-size: 24px;
 }
 .blog-section h1:hover{
     text-decoration: underline;
+}
+.all-blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 26px 40px;
+}
+.blogs{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-cover img{
+height: 117px;
+width: 177px;
+}
+.blog-info{
+    margin: 16px;
+}
+.blog-info h3{
+    font-size: 20px;
+}
+.blog-info p{
+    font-size: 16px;
+    color: blue;
+}
+.blog-info p:hover{
+    text-decoration: underline;
+}
+.by{
+    color: orange;
+}
+/* course-section */
+.course-section{
+    width: 870px;
+    height: 362px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+    margin-bottom: 50px;
+}
+/* course-section */
+.course-section{
+    padding: 33px;
+}
+.course-section h1{
+    color: blue;
+    font-size: 24px;
 }
