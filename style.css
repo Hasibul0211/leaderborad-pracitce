@@ -6,10 +6,53 @@ body{
     background-color: #E5E5E5;
     font-family: 'Poppins', sans-serif;
 }
+/* heading section  */
 header{
     height: 94px;
     width: 100%;
     background-color: #562EFF;
+}
+header div{
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 70%;
+}
+.sub-head{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-section{
+    display: flex;
+    align-items: center;
+}
+.icon-section img{
+    height: 51px;
+    width: 40px;
+    margin-right: 10px;
+}
+.icon-section p{
+    color: white;
+    font-size: 24px;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.nav-section nav a{
+    margin: 15px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-section nav a:hover,.active{
+    color: yellow;
+    background-color: grey;
+    border-radius: 10px;
+    transition: all 0.1s;
 }
 /* container-section */
 .container{
@@ -120,4 +163,82 @@ width: 177px;
 }
 .course-section h1:hover{
     text-decoration: underline;
+}
+.all-courses{
+    display: flex;
+    justify-content: space-around;
+}
+.course{
+    width: 252px;
+    height: 269px;
+    box-shadow: 0px 5px  13px rgba(0, 0, 0, 0.05);
+    margin-top: 11px;
+    border-radius: 10px;
+}
+.course-photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.course-photo img{
+    height: 104px;
+    width: 220px;
+    
+}
+.course-info,.course-rating{
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.course-rating{
+    display: flex;
+    justify-content: space-between;
+}
+.course-info h1{
+    font-size: 20px;
+    font-family: Roboto;
+    color: black;
+}
+.course-info h1:hover{
+    text-decoration: underline;
+}
+.course-info p{
+    font-size: 14px;
+    margin-top: 15px;
+    color: orange;
+    font-family: Roboto;
+    font-weight: 400;
+}
+.fas{
+    font-size: 10px;
+    color: orange;
+}
+.last-star{
+    color: darkgrey;
+    opacity: 0.5;
+}
+.rating-rate{
+    font-size: 14px;
+    padding-left: 5px;
+    color: #A2A2A2;
+}
+.rating-rate:hover{
+    text-decoration: underline;
+}
+.duration{
+    background-color:#FFE4E8;
+    padding: 5px;
+    border-radius: 25px;
+    width: 95px;
+    font-size: 14px;
+    text-align: center;
+    color: #FF4A60;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.fa-clock{
+    font-size: 18px;
+    padding-right: 2px;
+
 }
