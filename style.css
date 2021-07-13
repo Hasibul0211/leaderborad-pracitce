@@ -242,3 +242,42 @@ width: 177px;
     padding-right: 2px;
 
 }
+/*--------------------- media quaries--------------------- */
+@media only screen and (max-width: 688px){
+    header{
+        height: 200px;
+    }
+    .sub-head{
+        width: 95%;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-section{
+        justify-content: center;
+        padding-top: 1%;
+        margin-bottom: 3%;
+    }
+    .icon-section img{
+        height: 80px;
+        width: 60px;
+    }
+.all-players{
+    grid-template-columns: repeat(1,1fr);
+}
+.player-blog-section{
+    width: 80%;
+}
+.player-blog-section h1{
+    padding: 3px 0 10px 30px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.player,.blog{
+    flex-direction: column;
+}
+.blog-section,.course-section{
+    display: none;
+}
+}
