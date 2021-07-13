@@ -118,3 +118,6 @@ width: 177px;
     color: blue;
     font-size: 24px;
 }
+.course-section h1:hover{
+    text-decoration: underline;
+}
